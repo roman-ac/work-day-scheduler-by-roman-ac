@@ -19,6 +19,8 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
@@ -32,8 +34,59 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table">
+        <tbody>
+          <tr class="row">
+            <td class="col-2 hour time-block">9AM</td>
+            <td class="col-8 " id="input" data-number="9"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">10AM</td>
+            <td class="col-8" id="input" data-number="10"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">11AM</td>
+            <td class="col-8" id="input" data-number="11"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">12PM</td>
+            <td class="col-8" id="input" data-number="12"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">1PM</td>
+            <td class="col-8" id="input" data-number="1"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">2PM</td>
+            <td class="col-8" id="input" data-number="2"></td> 
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">3PM</td>
+            <td class="col-8" id="input" data-number="3"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">4PM</td>
+            <td class="col-8" id="input" data-number="4"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+          <tr class="row">
+            <td class="col-2 hour time-block">5PM</td>
+            <td class="col-8" id="input" data-number="5"></td>
+            <td class="col-1 saveBtn"><span class="glyphicon glyphicon-saved " style="font-size:45px;color:antiquewhite;"></span></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
